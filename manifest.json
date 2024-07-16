@@ -1,0 +1,69 @@
+{
+    "short_name": "",
+    "name": "",
+    "description": "",
+    "id": "https://stargate11.xyz",
+    "start_url": "/?source=homepage",
+    "background_color": "white",
+    "theme_color": "black",
+    "display_override": ["window-control-overlay", "minimal-ui"],
+    "display": "browser",
+    "scope": "/",
+    "icons": [
+      {
+      "src": "src/assets/images/icons/main.png",
+      "type": "image/png",
+      "sizes": "192x192"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "src/assets/images/screenshots/screenshot1.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "src/assets/images/screenshots/screenshot2.jpg",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ],
+    "shortcuts": [
+        {
+            "name": "Contact Us",
+            "short_name": "Contact",
+            "description": "Get in touch",
+            "url": "/contact?source=pwa",
+            "icons": [
+                { 
+                  "src": "src/assets/images/icons/contact.png",  
+                  "sizes": "192x192" 
+                }
+            ]
+      },
+      {
+        "name": "Frequently Asked Questions",
+        "short_name": "FAQs",
+        "description": "Frequently Asked Questions",
+        "url": "/faq?source=pwa",
+        "icons": [
+            { 
+              "src": "src/assets/images/icons/faq.png",  
+              "sizes": "192x192" 
+            }
+        ]
+  },
+      {
+            "name": "Schedule an Appointment",
+            "short_name": "Make an Appointment",
+            "description": "Make a 1:1 Consultation",
+            "url": "/appointment?source=pwa",
+            "icons": [
+                { 
+                  "src": "src/assets/images/icons/appointment.png", 
+                  "sizes": "192x192" 
+                }
+            ]
+      }
+    ]
+  }

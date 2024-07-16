@@ -1,0 +1,89 @@
+@import "./vendor/normalize.css";
+@import "./custom/grid.css";
+@import "./custom/font.css";
+@import "./custom/type.css";
+@import "./custom/color.css";
+
+
+.logo {
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: rgb(74, 74, 74);
+}
+
+ul,
+nav {
+  list-style-type: none;
+}
+
+a.active {
+  color: black;
+  font-weight: 600;
+}
+
+nav a {
+  padding: 10px 20px;
+  color: darkslategray;
+}
+
+nav.header {
+  font-weight: 400;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+  border-radius: 2px;
+}
+
+nav p {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 95px;
+}
+
+footer a {
+  background-color: yellow;
+  border-radius: 2px;
+}
+
+.copyright {
+  text-align: center;
+  display: block;
+}
+
+/* Wide screens (1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Standard screens (between 992px and 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Tablets (between 768px and 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Mobile phones (up to 767px) */
+@media only screen and (max-width: 767px) {
+  header nav {
+    display: none;
+  }
+  h1 {
+    font-size: 7em;
+  }
+}
